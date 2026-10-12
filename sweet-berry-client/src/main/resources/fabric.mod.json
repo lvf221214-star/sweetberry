@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "sweetberryclient",
+  "version": "${version}",
+  "name": "Sweet Berry Client",
+  "description": "Sweet Berry Client",
+  "environment": "client",
+  "entrypoints": { "client": ["com.sweetberry.SweetBerryClient"] },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.4", "java": ">=21", "fabric-api": "*" }
+}
